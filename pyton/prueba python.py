@@ -25,6 +25,6 @@ print("el resultado de", numero_1, " modulo de ", numero_2, " es: ", mod)
 valor1 = input("ingrese el valor del primer numero\n")
 valor2 = input("ingrese el valor del segundo numero\n")
 
-potencia = valor1**valor2
+potencia = pow(valor1, valor2)
 
-print("el resultado de la potencia es: " + str(potencia))
+print("el resultado de la potencia es: ", str(potencia))
