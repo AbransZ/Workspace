@@ -1,4 +1,4 @@
-"""print("suma")
+print("suma")
 
 
 numero_1 = 5
@@ -21,9 +21,10 @@ numero_1 = 5
 numero_2 = 2
 mod = numero_1 % numero_2
 print("el resultado de", numero_1, " modulo de ", numero_2, " es: ", mod)
-"""
-valor1 = input("ingrese el valor del primer numero\n")
-valor2 = input("ingrese el valor del segundo numero\n")
+
+
+valor1 = int(input("Ingrese primer valor"))
+valor2 = int(input("Ingrese segundo valor"))
 
 potencia = pow(valor1, valor2)
 
