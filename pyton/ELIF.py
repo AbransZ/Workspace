@@ -8,6 +8,9 @@ if potencia >=20:
     
         print("el resultado de la potencia es: ", str(potencia))
         
-else :        
+elif potencia>=50:
         
-        print("El resultado es Menor del valor 20 su valor es: ", str(potencia))
+        print("El resultado de la potencia es mayor a 50 y su valor es: ", str(potencia))
+       
+else:
+                print("El resultado es Menor del valor 20 y 50 su valor es: ", str(potencia))
