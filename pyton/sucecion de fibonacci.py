@@ -4,4 +4,4 @@ while x1 <= 1597:
     print(x1, x2, end=" ")
     x1 = x1+x2
     x2 = x1+x2
-print("Acabo el ciclo")
+print("\nAcabo el ciclo")
